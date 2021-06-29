@@ -11,7 +11,7 @@ import (
 
 // https://github.com/go-sql-driver/mysql/blob/v1.6.0/dsn.go#L36
 
-func initDB(dbUser, dbPass, dbHost, dbPort, dbName, dbType string) (*sql.DB, error) {
+func init(dbUser, dbPass, dbHost, dbPort, dbName, dbType string) (*sql.DB, error) {
     db := &sql.DB{}
 
     DSNConfig := mysql.NewConfig()
