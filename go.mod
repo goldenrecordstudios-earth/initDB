@@ -1,4 +1,4 @@
-module github.com/sunsunsunsunsunsunsunsun/initDB
+module github.com/goldenrecordstudios-earth/initDB
 
 go 1.16
 
